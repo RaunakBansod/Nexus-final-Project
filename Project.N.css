@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+.background {
+  background-image: url("building_photo.jpg");
+  background-size: cover;
+}
+
+#contact {
+  margin-left: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #333;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home{
+    margin-top: 50px;
+    font-size: xx-large;
+text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width : 30%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-right: 100%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  padding: 100px;
+}
+
+.services{
+  font-family: Arial;
+  font-size: larger ;
+  text-align: center;
+  padding: 80px;
+  align-items: center;
+  width:50%;
+}
+#footer{
+    height:700px;
+    background-color:#333;
+    color: white;
+    margin-top: 10%;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+#media{
+    margin-left: 30px;
+   text-align: center;
+}
+
+#img{
+    padding: 50px;
+text-align: center;
+align-items: center;
+
+}
+
+#content{
+text-align: center;
+font-size: larger;
+}
+
+#media2{
+     font-size: small;
+}
+
+@media (min-width: 280px) and (max-width: 650px) {
+  .content {
+    width: 600px;
+  }
+  
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input,
+  button {
+    width: 100%;
+  }
+}
+}
